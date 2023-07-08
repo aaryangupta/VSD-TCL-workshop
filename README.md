@@ -43,10 +43,14 @@ to source the Unix shell to the Tcl script by passing the required csv file.
 Now we will see three diffrent scenario-
 
 * user doesnt enter the csv file
+  ![Screenshot from 2023-07-09 00-21-19](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/24a03c4f-e958-480d-9ce8-85c99db39e87)
 
 * user enters the wrong csv file/ file doesnt exist
+  ![Screenshot from 2023-07-09 00-21-52](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/c75dcb50-090b-4064-9315-9b7e050cceb3)
+
 
 * user enters -help
+![Screenshot from 2023-07-09 00-22-18](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/0087c5c0-da6d-4475-8283-be8778ff312c)
 
 
 ## Day-2
