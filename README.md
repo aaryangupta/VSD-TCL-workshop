@@ -75,7 +75,8 @@ Task we will perform are as :
 
 
 >return error if the required parameters are not present
-![251360686-fb38a012-ffb9-40b1-a56c-c08f7fd275a7](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/1bf9fd4d-8d8b-4219-8e30-e447bf15fbbd)
+![Screenshot from 2023-07-10 01-36-54](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/41cad8f6-93c3-4b5a-b4fc-934b6822a79d)
+
  
 >Read the Constraint file and proccess parameters for the SDC file( Convert the constraint file into a matrix and define the SDC constraints)
 ![tcl 1](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/6f6512f4-8d32-45f3-b097-c2c3f35c9008)
