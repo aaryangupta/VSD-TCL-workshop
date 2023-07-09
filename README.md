@@ -67,9 +67,11 @@ Task we will perform are as :
 * pass that script to Yosys
 
 > Creating variables
+![Screenshot from 2023-07-09 19-17-21](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/7b00a587-32de-432f-a404-92db1c75d39e)
 
 
 >Check the prescence of paths and names
+![Screenshot from 2023-07-09 19-17-32](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/1b09a23c-5a8b-45c5-af5f-0278bb686a2e)
 
 
 >return error if the required parameters are not present
