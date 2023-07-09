@@ -43,6 +43,7 @@ to source the Unix shell to the Tcl script by passing the required csv file.
 Now we will see three diffrent scenario-
 
 * user doesnt enter the csv file
+  
   ![Screenshot from 2023-07-09 00-21-19](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/24a03c4f-e958-480d-9ce8-85c99db39e87)
 
 * user enters the wrong csv file/ file doesnt exist
@@ -58,18 +59,22 @@ Now we will see three diffrent scenario-
 Convert all inputs to format-y and SDC format and pass them to Yosys tool
 
 Task we will perform are as :
-* Creating the variables so that we can access the paths in excel sheet using these
-  
+* Creating the variables
 * check if files and directories mentioned in csv exists or not
-  
 * Read constraints file in csv and convert to SDC format
-
 * Read all the files in netlist directory
-
 * create main synthesis script into format 2
-
 * pass that script to Yosys
 
+> Creating variables
+
+
+>Check the prescence of paths and names
+
+
+>return error if the required parameters are not present
+![251360686-fb38a012-ffb9-40b1-a56c-c08f7fd275a7](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/1bf9fd4d-8d8b-4219-8e30-e447bf15fbbd)
+ 
 
 ## Day-3
 
