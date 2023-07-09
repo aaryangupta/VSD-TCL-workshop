@@ -77,6 +77,12 @@ Task we will perform are as :
 >return error if the required parameters are not present
 ![251360686-fb38a012-ffb9-40b1-a56c-c08f7fd275a7](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/1bf9fd4d-8d8b-4219-8e30-e447bf15fbbd)
  
+>Read the Constraint file and proccess parameters for the SDC file( Convert the constraint file into a matrix and define the SDC constraints)
+![tcl 1](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/6f6512f4-8d32-45f3-b097-c2c3f35c9008)
+
+> Categorization of each clocks, inputs and outputs features by porting their location in .csv file:
+![tcl 2](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/08270a2e-ff4d-4d67-a15a-4e200ff8d3f8)
+
 
 ## Day-3
 
