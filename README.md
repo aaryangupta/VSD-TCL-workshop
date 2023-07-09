@@ -78,11 +78,8 @@ Task we will perform are as :
 ![Screenshot from 2023-07-10 01-36-54](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/41cad8f6-93c3-4b5a-b4fc-934b6822a79d)
 
  
->Read the Constraint file and proccess parameters for the SDC file( Convert the constraint file into a matrix and define the SDC constraints)
-![tcl 1](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/6f6512f4-8d32-45f3-b097-c2c3f35c9008)
-
-> Categorization of each clocks, inputs and outputs features by porting their location in .csv file:
-![tcl 2](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/08270a2e-ff4d-4d67-a15a-4e200ff8d3f8)
+>Read the Constraint file and proccess parameters for the SDC file
+![Screenshot from 2023-07-10 01-51-59](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/8e581b42-9b78-4301-a7be-b937ea2c12f3)
 
 
 ## Day-3
