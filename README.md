@@ -55,13 +55,20 @@ Now we will see three diffrent scenario-
 
 ## Day-2
 
-Converting inputs to format[1] and feeding it to yosys for synthesis
+Convert all inputs to format-y and SDC format and pass them to Yosys tool
 
-* Create Variables
+Task we will perform are as :
+* Creating the variables so that we can access the paths in excel sheet using these
+  
+* check if files and directories mentioned in csv exists or not
+  
+* Read constraints file in csv and convert to SDC format
 
-* Checking if the directories exist or not ( done to prevent the script from breaking )
+* Read all the files in netlist directory
 
-* Displays an error when the required file is not in the needed directory
+* create main synthesis script into format 2
+
+* pass that script to Yosys
 
 
 ## Day-3
