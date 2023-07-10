@@ -84,24 +84,24 @@ Task we will perform are as :
 
 ## Day-3
 
-Read Constraints.csv file and convert to sdc format
+Countinue from day 2 task, Read Constraints.csv file and convert to sdc format
 
 getting clock details from csv file and writing it the sdc file in the required format
-getting input details from csv file and writing it in the required format
-getting output details from csv file and writing it in the required format
 Note: need to identify bussed and non bussed inputs and outputs before entering in the required format.
 
-The script writing the sdc constraints.
+>The file named openMSP430_design_details.csv appears as follows:
 ![Screenshot from 2023-07-11 02-33-35](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/3a7feac3-31d0-4b88-b9d8-4237e3af14a3)
 ![Screenshot from 2023-07-11 02-37-00](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/9e66cd3f-87c7-4016-8265-47a37c3ec6e3)
 
-![Screenshot from 2023-07-11 03-04-40](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/1f8d1218-1bac-4a36-a07c-830a61398930)
+>getting input details from csv file and writing it in the required format
 ![Screenshot from 2023-07-11 03-11-51](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/2a350409-045a-4fc5-a313-05fe6d2e4bc2)
+
+>getting output details from csv file and writing it in the required format
+
+
+>A snip of the sdc file
 ![Screenshot from 2023-07-11 03-20-12](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/f1cc4b51-6d52-490a-afe0-4fec208763af)
 
-
-
-A snip of the sdc file
 
 
 ## Day-4
