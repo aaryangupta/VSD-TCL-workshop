@@ -92,6 +92,12 @@ getting output details from csv file and writing it in the required format
 Note: need to identify bussed and non bussed inputs and outputs before entering in the required format.
 
 The script writing the sdc constraints.
+![Screenshot from 2023-07-11 02-33-35](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/3a7feac3-31d0-4b88-b9d8-4237e3af14a3)
+![Screenshot from 2023-07-11 02-37-00](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/9e66cd3f-87c7-4016-8265-47a37c3ec6e3)
+
+![Screenshot from 2023-07-11 03-04-40](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/1f8d1218-1bac-4a36-a07c-830a61398930)
+![Screenshot from 2023-07-11 03-17-33](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/063db092-c7ab-4bb1-92c9-6542d876888b)
+![Screenshot from 2023-07-11 03-11-51](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/2a350409-045a-4fc5-a313-05fe6d2e4bc2)
 
 
 A snip of the sdc file
