@@ -97,6 +97,7 @@ Note: need to identify bussed and non bussed inputs and outputs before entering 
 ![Screenshot from 2023-07-11 03-11-51](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/2a350409-045a-4fc5-a313-05fe6d2e4bc2)
 
 >getting output details from csv file and writing it in the required format
+![Screenshot from 2023-07-11 03-38-07](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/4828e6c9-6868-41e8-b1fb-ab20fa6c1335)
 
 
 >A snip of the sdc file
