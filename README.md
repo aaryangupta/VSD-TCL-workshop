@@ -115,6 +115,18 @@ Creating scripts for synthesis and running it on yosys
 
 creating script for Hierarchy check
 running hierarchy check
+![Screenshot from 2023-07-11 03-57-38](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/099abcbf-bb30-4061-8054-1279a420b4f7)
+
+![Screenshot from 2023-07-11 14-25-00](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/67aaaf43-cf3f-4f4a-9368-a24ffe1638e8)
+![Screenshot from 2023-07-11 14-23-24](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/834273a5-29b2-44cc-a4ac-daaab0137fb9)
+![Screenshot from 2023-07-11 14-23-12](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/e9afafb7-14f1-4439-ac7e-bb4d941912e3)
+![Screenshot from 2023-07-11 14-22-54](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/554289e2-dbec-4ece-a4ab-5c40f015d5ac)
+![Screenshot from 2023-07-11 14-21-15](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/f6228f30-22f8-4eb0-b725-dfd5ff507efb)
+![Screenshot from 2023-07-11 14-13-35](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/5cdf47f1-049d-43e8-8608-01328691c234)
+![Screenshot from 2023-07-11 14-13-19](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/10ddde69-9e15-40d0-820b-64d581422c86)
+![Screenshot from 2023-07-11 14-10-41](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/1ea74e53-cd59-40c3-9029-10d369486a00)
+![Screenshot from 2023-07-11 14-10-20](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/c8c6bb9c-14f5-440a-b4b0-5a857cd9cccc)
+
 
 Case 1: When all the modules are present and called correctly
 
