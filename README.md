@@ -169,6 +169,16 @@ Using procs in this manner allows for modular and reusable code, enhancing the f
 
 To gain a visual understanding, please refer to the accompanying image illustrating the concepts described.
 
+![Screenshot from 2023-07-11 17-23-25](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/dcfa383b-6edd-4ce9-bffa-f90662300808)
+![Screenshot from 2023-07-11 17-32-40](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/517a22d4-e6b6-47ec-82fd-bdfaf97e34da)
+
+![Screenshot from 2023-07-11 17-46-51](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/bc9db152-46ac-44fe-b787-e49c247c443f)
+
+![Screenshot from 2023-07-11 18-09-23](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/016ade03-8eb4-412f-93b9-28627f77a49c)
+![Screenshot from 2023-07-11 18-12-08](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/c6e36b25-2c66-4de2-9b7d-d8c9c03ed6fe)
+![Screenshot from 2023-07-11 18-26-02](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/ee0daf49-d73a-411f-8376-cdc12aa32f1a)
+![Screenshot from 2023-07-11 18-49-37](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/90b5530a-c011-4708-836b-7abcc29b70e5)
+![Screenshot from 2023-07-11 19-00-46](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/8406fc59-0a6d-4ad4-a751-dcb264181426)
 
 * Entering the world of procs
 1. reopenStdout.proc
