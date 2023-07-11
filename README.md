@@ -146,57 +146,29 @@ Using procs in this manner allows for modular and reusable code, enhancing the f
 
 To gain a visual understanding, please refer to the accompanying image illustrating the concepts described.
 
+>We give the standard cell library and RTL Netlist path in openMSP430.ys file as an input to Yosys EDA tool for creating gate level synthesized netlist in the file openMSP430.synth.v.
 ![Screenshot from 2023-07-11 17-23-25](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/dcfa383b-6edd-4ce9-bffa-f90662300808)
+
+>Now we need to format the openMSP430.synth.v file to a format which is compatible with the opentimer EDA tool. So from the openMSP430.synth.v we remove all the lines containing an asterisk(*) symbol and replace backslash(\) symbol with a null character("") to generate openMSP430.final.synth.v file.
 ![Screenshot from 2023-07-11 17-32-40](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/517a22d4-e6b6-47ec-82fd-bdfaf97e34da)
 
+>example of how the formatting is done for openMSP430.synth.v file by removing lines containing the asterisk symbol.
 ![Screenshot from 2023-07-11 17-46-51](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/bc9db152-46ac-44fe-b787-e49c247c443f)
 
+>Proc is just like a function. We can define it in a file and then just source that proc to our main script and call that proc just like any other function by passing the required options and arguments. Here is an example of one of the proc that is used to define the number of threads.
 ![Screenshot from 2023-07-11 18-09-23](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/016ade03-8eb4-412f-93b9-28627f77a49c)
+
+>Below snapshot shows the execution of procs
 ![Screenshot from 2023-07-11 18-12-08](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/c6e36b25-2c66-4de2-9b7d-d8c9c03ed6fe)
+
+>The output commands generated on execution of these procs are added into the openMSP430.conf file. These commands are compatible with the opentimer EDA tool for timing analysis.
 ![Screenshot from 2023-07-11 18-26-02](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/ee0daf49-d73a-411f-8376-cdc12aa32f1a)
+
+> enable the prelayout timing variable to not take into account wire load parasitics as the routing has not been done. So essentially the load parasitic value is set to zero.
 ![Screenshot from 2023-07-11 18-49-37](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/90b5530a-c011-4708-836b-7abcc29b70e5)
+
+> Formatting to generate the report & Final Output
 ![Screenshot from 2023-07-11 19-00-46](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/8406fc59-0a6d-4ad4-a751-dcb264181426)
 
-* Entering the world of procs
-1. reopenStdout.proc
-
-```bash
-  proc reopenStdout {file} {
-  #closes the main terminal window where all the puts statements were being displayed as info to user
-  close stdout
-  #opens $file in write mode
-  open $file w       
-}
-```
-
-The "reopenStdout" proc serves a straightforward purpose of closing the standard output (stdout) of the main terminal and opening a file in write mode.
-
-2. set_num_threads.proc
-```bash
-  proc set_multi_cpu_usage {args} {
-    array set options {-localCpu <num_of_threads> -help "" }
-    foreach {switch value} [array get options] {
-    puts "Option $switch is $value"
-    }
-    while {[llength $args]} {
-    puts "llength is [llength $args]"
-    puts "lindex 0 of \"$args\" is [lindex $args 0]"
-        switch -glob -- [lindex $args 0] {
-          -localCpu {
-              puts "old args is $args"
-              set args [lassign $args - options(-localCpu)]
-              puts "new args is \"$args\""
-              puts "set_num_threads $options(-localCpu)"
-              }
-          -help {
-              puts "old args is $args"
-              set args [lassign $args - options(-help) ]
-              puts "new args is \"$args\""
-              puts "Usage: set_multi_cpu_usage -localCpu <num_of_threads>"
-              }
-        }
-    }
-}
-```
 
 
