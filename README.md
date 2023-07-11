@@ -134,22 +134,17 @@ Tasks:
 
 ## Day - 5
 
-create script for OpenTimer and run STA analysis followed by generation of Quality of Results (QoR)
+* create script for OpenTimer and run STA analysis followed by generation of Quality of Results (QoR)
 
 To generate a script for OpenTimer, you can utilize procs. Procs, short for procedures, are external TCL files that execute specific operations when sourced into the main TCL script. They function similarly to functions in Python programming.
 
-For example, you can create a proc called "read_liberty" which accepts arguments like "-lib", "-late", "-early", and "/or". This proc will perform specific actions based on the provided arguments when sourced into the main TCL script. By referencing the proc and mapping the arguments to the external TCL script (proc script), the "read_liberty" command will be executed.
+For example, you can create a proc called "read_liberty" which accepts arguments like "-lib", "-late", "-early", and "/or". This proc will perform specific actions based on the provided arguments when sourced into the main TCL script. By referencing the proc and mapping the arguments to the external TCL script (proc script), the "read_liberty" command will be executed. After executing the proc command, the main TCL script will contain the output or result of the proc, which can be further utilized as needed.
 
-After executing the proc command, the main TCL script will contain the output or result of the proc, which can be further utilized as needed.
 
-Using procs in this manner allows for modular and reusable code, enhancing the flexibility and functionality of the OpenTimer script generation process.
-
-To gain a visual understanding, please refer to the accompanying image illustrating the concepts described.
-
->We give the standard cell library and RTL Netlist path in openMSP430.ys file as an input to Yosys EDA tool for creating gate level synthesized netlist in the file openMSP430.synth.v.
+>In the openMSP430.ys file, we provide the input of the standard cell library and RTL Netlist path to the Yosys EDA tool. This input is used for generating the gate-level synthesized netlist, which is then saved in the file openMSP430.synth.v.
 ![Screenshot from 2023-07-11 17-23-25](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/dcfa383b-6edd-4ce9-bffa-f90662300808)
 
->Now we need to format the openMSP430.synth.v file to a format which is compatible with the opentimer EDA tool. So from the openMSP430.synth.v we remove all the lines containing an asterisk(*) symbol and replace backslash(\) symbol with a null character("") to generate openMSP430.final.synth.v file.
+>To make the openMSP430.synth.v file compatible with the opentimer EDA tool, we perform a formatting step. This involves removing all lines in openMSP430.synth.v that contain an asterisk (*) symbol and replacing the backslash (\) symbol with a null character (""). The resulting formatted file is saved as openMSP430.final.synth.v.
 ![Screenshot from 2023-07-11 17-32-40](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/517a22d4-e6b6-47ec-82fd-bdfaf97e34da)
 
 >example of how the formatting is done for openMSP430.synth.v file by removing lines containing the asterisk symbol.
