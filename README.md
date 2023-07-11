@@ -108,14 +108,15 @@ Note: need to identify bussed and non bussed inputs and outputs before entering 
 ## Day-4
 
 YOSYS (Yosys Open SYnthesis Suite)
-YOSYS is a highly regarded open-source framework for RTL synthesis and formal verification of digital circuits. It operates by taking RTL descriptions, such as Verilog, as input and then proceeds to perform synthesis, ultimately generating a netlist at the gate level. YOSYS provides robust support for crucial tasks like technology mapping, optimization, and formal verification. Its versatility is further enhanced by a scripting interface, enabling seamless integration with other EDA (Electronic Design Automation) tools. As a result, YOSYS has gained substantial popularity and finds extensive usage in both academic and i
-ndustrial settings for various digital design endeavors.
+YOSYS is a highly regarded open-source framework for RTL synthesis and formal verification of digital circuits. It operates by taking RTL descriptions, such as Verilog, as input and then proceeds to perform synthesis, ultimately generating a netlist at the gate level. YOSYS provides robust support for crucial tasks like technology mapping, optimization, and formal verification. Its versatility is further enhanced by a scripting interface, enabling seamless integration with other EDA (Electronic Design Automation) tools. As a result, YOSYS has gained substantial popularity and finds extensive usage in both academic and industrial settings for various digital design endeavors.
 
-Creating scripts for synthesis and running it on yosys
+Tasks:
+* Checking the Hierarchy
+* Error handling
 
-creating script for Hierarchy check
-running hierarchy check
+>running hierarchy check
 ![Screenshot from 2023-07-11 03-57-38](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/099abcbf-bb30-4061-8054-1279a420b4f7)
+
 
 ![Screenshot from 2023-07-11 14-25-00](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/67aaaf43-cf3f-4f4a-9368-a24ffe1638e8)
 ![Screenshot from 2023-07-11 14-23-24](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/834273a5-29b2-44cc-a4ac-daaab0137fb9)
