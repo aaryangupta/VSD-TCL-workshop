@@ -118,41 +118,18 @@ Tasks:
 ![Screenshot from 2023-07-11 03-57-38](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/099abcbf-bb30-4061-8054-1279a420b4f7)
 
 >running hierarchy check
-![Screenshot from 2023-07-11 14-07-41](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/50a24d55-ad41-4abe-b94b-cfed70d13818)
+![Screenshot from 2023-07-11 14-21-15](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/6e9a24c1-a5b2-4db8-899d-85ce308dcd74)
 
 >After making a unknown module in openMsp430.v file ...
 ![Screenshot from 2023-07-11 14-10-20](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/e9536bb5-b857-4a08-9efc-3c126127a4a5)
 
 > referenced in module error due to calling incorrectly or module doesnt exist
-![Screenshot from 2023-07-11 14-10-41](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/a6bd37ac-0917-4cc5-9573-22f6b20d445e)
-
->checking logs by following command:
-![Screenshot from 2023-07-11 14-13-35](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/845afdcd-a256-4f03-a0a4-1c85035e60e1)
-![Screenshot from 2023-07-11 14-13-19](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/958e6634-fa13-4122-a632-a29c4de1a124)
-
-
-![Screenshot from 2023-07-11 14-21-15](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/6e9a24c1-a5b2-4db8-899d-85ce308dcd74)
-
 ![Screenshot from 2023-07-11 14-22-54](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/63c77df2-ce25-49b3-9ef6-bd766ae27291)
 
+>checking logs by following command:
 ![Screenshot from 2023-07-11 14-23-24](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/4b9eef7c-e493-49f0-812b-885e1eb2edf1)
 
 ![Screenshot from 2023-07-11 14-25-00](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/4aebe01a-2932-487e-8281-9d58aba25bb4)
-
-Case 1: When all the modules are present and called correctly
-
-
-Case 2: referenced in module error due to calling incorrectly or module doesnt exist
-
-
-* after the hierarchy check is passed . The main synthesis script is written.
-* running synthesis if there are no error in hierarchy check.
-
-Case 1: No error in hierarchy
-
-
-Case 2: error encountered in hierarchy
-
 
 
 ## Day - 5
