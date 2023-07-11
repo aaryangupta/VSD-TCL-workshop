@@ -117,17 +117,21 @@ Tasks:
 >running hierarchy check
 ![Screenshot from 2023-07-11 03-57-38](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/099abcbf-bb30-4061-8054-1279a420b4f7)
 
+![Screenshot from 2023-07-11 14-07-41](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/50a24d55-ad41-4abe-b94b-cfed70d13818)
+![Screenshot from 2023-07-11 14-10-20](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/e9536bb5-b857-4a08-9efc-3c126127a4a5)
 
-![Screenshot from 2023-07-11 14-25-00](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/67aaaf43-cf3f-4f4a-9368-a24ffe1638e8)
-![Screenshot from 2023-07-11 14-23-24](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/834273a5-29b2-44cc-a4ac-daaab0137fb9)
-![Screenshot from 2023-07-11 14-23-12](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/e9afafb7-14f1-4439-ac7e-bb4d941912e3)
-![Screenshot from 2023-07-11 14-22-54](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/554289e2-dbec-4ece-a4ab-5c40f015d5ac)
-![Screenshot from 2023-07-11 14-21-15](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/f6228f30-22f8-4eb0-b725-dfd5ff507efb)
-![Screenshot from 2023-07-11 14-13-35](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/5cdf47f1-049d-43e8-8608-01328691c234)
-![Screenshot from 2023-07-11 14-13-19](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/10ddde69-9e15-40d0-820b-64d581422c86)
-![Screenshot from 2023-07-11 14-10-41](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/1ea74e53-cd59-40c3-9029-10d369486a00)
-![Screenshot from 2023-07-11 14-10-20](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/c8c6bb9c-14f5-440a-b4b0-5a857cd9cccc)
+![Screenshot from 2023-07-11 14-10-41](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/a6bd37ac-0917-4cc5-9573-22f6b20d445e)
 
+![Screenshot from 2023-07-11 14-13-35](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/845afdcd-a256-4f03-a0a4-1c85035e60e1)
+![Screenshot from 2023-07-11 14-13-19](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/958e6634-fa13-4122-a632-a29c4de1a124)
+
+![Screenshot from 2023-07-11 14-21-15](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/6e9a24c1-a5b2-4db8-899d-85ce308dcd74)
+
+![Screenshot from 2023-07-11 14-22-54](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/63c77df2-ce25-49b3-9ef6-bd766ae27291)
+
+![Screenshot from 2023-07-11 14-23-24](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/4b9eef7c-e493-49f0-812b-885e1eb2edf1)
+
+![Screenshot from 2023-07-11 14-25-00](https://github.com/aaryangupta/VSD-TCL-workshop/assets/40055877/4aebe01a-2932-487e-8281-9d58aba25bb4)
 
 Case 1: When all the modules are present and called correctly
 
