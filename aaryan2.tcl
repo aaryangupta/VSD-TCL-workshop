@@ -18,7 +18,7 @@ set input [lindex [split [lindex $argv 0] .] $pan_array_length-1]
 
 if {![regexp {csv} $input] || $argc!=1 } {
 	puts "Error in usage"
-	puts "Usage: ./panda <.csv>"
+	puts "Usage: ./aaryan <.csv>"
 	puts "where <.csv> file has below inputs"
 	exit
 } else {
