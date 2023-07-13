@@ -1,7 +1,7 @@
 #! /usr/bin/env tclsh
 
 #-----------------------------------------------------------#
-#----- Checks whether panda usage is correct or not -----#
+#----- Checks whether aaryan usage is correct or not -----#
 #-----------------------------------------------------------#
 
 set generate_sdc 1
