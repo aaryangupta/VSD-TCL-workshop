@@ -10,11 +10,6 @@ set working_dir [exec pwd]
 set pan_array_length [llength [split [lindex $argv 0] .]]
 set input [lindex [split [lindex $argv 0] .] $pan_array_length-1]
 
-#puts [lindex $argv 0]
-#puts [split [lindex $argv 0] .]
-#uts [llength [split [lindex $argv 0] .]]
-
-#puts $input
 
 if {![regexp {csv} $input] || $argc!=1 } {
 	puts "Error in usage"
