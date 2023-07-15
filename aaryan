@@ -44,5 +44,5 @@ if(! -f $argv[1] || $argv[1] == "-help") then #if arg is not a file or arg = "-h
 		exit 1
 	endif
 else
-		tclsh pandabro.tcl $argv[1]
+		tclsh aaryan.tcl $argv[1]
 endif
